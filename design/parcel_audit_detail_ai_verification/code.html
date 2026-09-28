@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#f6fafe;}body{overscroll-behavior:none;font-family:'Public Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "border-strong": "#71767A", "inverse-on-surface": "#edf1f6", "surface-container-highest": "#dfe3e7", "on-error": "#ffffff", "primary-container": "#162e51", "outline": "#74777f", "on-tertiary-fixed-variant": "#5d4200", "status-warning-bg": "#FEF0E4", "surface-container": "#eaeef3", "tertiary-container": "#3e2b00", "error": "#ba1a1a", "surface-container-high": "#e4e9ed", "surface-variant": "#dfe3e7", "surface-container-low": "#f0f4f9", "status-info-text": "#00BDE3", "on-surface": "#171c20", "background": "#f6fafe", "on-primary-fixed-variant": "#31476b", "official-banner-bg": "#F0F0F0", "tertiary-fixed": "#ffdea6", "primary-fixed-dim": "#b1c7f2", "inverse-surface": "#2c3135", "text-primary": "#1B1B1B", "surface-tint": "#495f85", "status-info-bg": "#E7F6F8", "secondary": "#0861a5", "on-tertiary": "#ffffff", "status-danger-text": "#D54309", "primary-fixed": "d6e3ff", "on-error-container": "#93000a", "seller-header": "#0B4151", "on-tertiary-container": "#c28c00", "on-secondary": "#ffffff", "secondary-fixed-dim": "#a0c9ff", "tertiary": "#241700", "on-secondary-fixed": "#001c37", "inverse-primary": "#b1c7f2", "on-primary-container": "#8096bf", "primary": "#001939", "status-warning-text": "#FA9441", "action-blue-hover": "#1A4480", "text-secondary": "#565C65", "surface": "#f6fafe", "surface-container-lowest": "#ffffff", "surface-dim": "#d6dadf", "status-success-bg": "#ECF3EC", "status-danger-bg": "#F4E3DB", "on-primary-fixed": "#001b3d", "on-secondary-fixed-variant": "#00497f", "on-primary": "#ffffff", "on-surface-variant": "#44474e", "border-subtle": "#DFE1E2", "status-success-text": "#00A91C", "on-background": "#171c20", "secondary-container": "#75b4fe", "outline-variant": "#c4c6cf", "on-tertiary-fixed": "#271900", "secondary-fixed": "#d2e4ff", "surface-default": "#FFFFFF", "canvas-background": "#F5F6F7", "surface-bright": "#f6fafe", "on-secondary-container": "#004579", "error-container": "#ffdad6", "tertiary-fixed-dim": "#fcbc2b" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-lg": "1.5rem", "gutter-desktop": "2rem", "gutter": "1rem", "space-md": "1rem", "margin": "1rem", "margin-desktop": "3rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-xl": "2rem", "margin-tablet": "2rem", "gutter-tablet": "1.5rem" }, fontFamily: { "body-sm": ["Public Sans"], "label-md": ["Public Sans"], "headline-lg": ["Public Sans"], "body-md": ["Public Sans"], "caption": ["Public Sans"], "headline-md": ["Public Sans"], "label-lg": ["Public Sans"], "body-lg": ["Public Sans"], "label-sm": ["Public Sans"], "headline-sm": ["Public Sans"] }, fontSize: { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "caption": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-lg": ["16px", { "lineHeight": "20px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }] } } } };</script></head><body class="bg-canvas-background font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-primary-container shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-28 flex flex-col"><div class="h-8 bg-official-banner-bg px-margin flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-text-secondary text-[16px]">shield</span><span class="font-label-sm text-text-secondary">An official-style service. Not legal advice.</span></div><button class="flex items-center gap-space-xs font-label-sm text-secondary underline hover:text-action-blue-hover min-h-[32px]"><span>Here's how you know</span><span class="material-symbols-outlined text-[14px]">arrow_drop_down</span></button></div><div class="h-[3px] bg-tertiary-fixed-dim w-full"></div><div class="h-[77px] px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button class="w-11 h-11 flex items-center justify-center text-on-primary hover:bg-surface-container-highest/20 active:bg-surface-container-highest/30 rounded-lg shrink-0" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="BhoomiCheck Civic Shield Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WFFikPKN9r6o_CU7stN8O4_g3v8Bmi9XXeFvYCX0bvImZwD3ARcELQGfBn_f5my2-oaypjdb2s_pGZ6m7RJpDgz2TH2Vv2kqOdxFUH-lA0UczP4Xkg7Uykmsb_Wn62Dq4ZriitUqRfCSw9hB8uGyR6A1o0kpqn33byu1xj8qWgL7sSwYzww0veo3EtP81YkH-jHANbq5QDshfjcLFEgy4_vnB7omCmUIGPKQg2yY9hMkjNXfpbL-_zb2s1"/><div class="flex flex-col min-w-0"><span class="font-headline-sm text-on-primary truncate">Parcel Audit Detail</span><span class="font-caption text-surface-container-high truncate">BhoomiCheck UP Civic Verification</span></div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-28 pb-safe bg-canvas-background min-h-screen"><div class="flex flex-col w-full pb-28">
+<!-- Step Indicator (USWDS Inspired) -->
+<div class="py-space-sm mb-space-sm">
+<div class="flex items-center justify-between text-caption font-caption text-text-secondary mb-space-xs">
+<span class="font-label-md text-primary">Stage 3 of 4: Legal &amp; GIS Audit</span>
+<span class="font-label-sm text-secondary font-semibold">Buyer Protection Mode</span>
+</div>
+<div class="grid grid-cols-4 gap-1.5 h-1.5 w-full">
+<div class="bg-secondary rounded-full"></div>
+<div class="bg-secondary rounded-full"></div>
+<div class="bg-tertiary-fixed-dim rounded-full"></div>
+<div class="bg-surface-container-highest rounded-full"></div>
+</div>
+</div>
+<!-- Header Info Bar & Geolocation Identification -->
+<div class="bg-surface-default rounded-xl p-space-md shadow-sm mb-space-md">
+<div class="flex items-center gap-space-xs text-secondary mb-1">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-sm font-semibold tracking-wider uppercase">Official Revenue Extract</span>
+</div>
+<div class="flex flex-wrap items-baseline justify-between gap-1 mb-space-xs">
+<h1 class="font-headline-md text-text-primary">UP-LKO-248-2</h1>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container-low text-text-secondary font-label-sm font-mono">Khasra 248/2</span>
+</div>
+<p class="font-body-sm text-text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-text-secondary shrink-0">location_on</span>
+<span>Banthra, Tehsil Sarojini Nagar, District Lucknow</span>
+</p>
+<!-- Geographic Satellite Snapshot Preview -->
+<div class="mt-space-md relative w-full h-36 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High-resolution aerial satellite cadastral survey map showing agricultural and residential plot partitions in Uttar Pradesh, with clean digital geometric property boundary lines rendered in civic blue and amber highlights under natural daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhant5vS0Z04G6iq2aEIqh47c3phQFKNU-6IjiCzNeSAquZLd-8JW0V36nfCBA6DByXcGn8JjJnLstHG4M9PwcyALMLhSry1TVhjyLUAYicheIWtgoyd2ZulsRRI83ctsMDN6lz3bbHDIt1oMPcfuP3rpXzixYg3KXxANfNROLy0wT8KkqWuLbGlRNf-P_v0QlyMnMUG1Ye3_cEhNL0OBdGNqsszgsx66gl3eMfdUVee6McffCkur3gQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-space-sm justify-between">
+<span class="text-on-primary font-caption flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">layers</span> GIS Geo-referenced Survey Sheet #44A
+        </span>
+<span class="bg-surface-default/90 text-primary font-label-sm px-2 py-0.5 rounded shadow-sm backdrop-blur-sm">
+          0.420 Hectares
+        </span>
+</div>
+</div>
+</div>
+<!-- Overall AI Risk Assessment Alert Banner -->
+<div class="bg-status-danger-bg rounded-xl p-space-md mb-space-lg">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-status-danger-text text-[28px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">
+        report
+      </span>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-sm text-status-danger-text font-bold">Medium Acquisition Risk Detected</span>
+</div>
+<p class="font-label-md text-status-danger-text mt-0.5">2 Critical Discrepancies Requiring Pre-Sale Rectification</p>
+<p class="font-body-sm text-text-primary mt-space-xs leading-relaxed">
+          AI cross-referenced 32 years of Sub-Registrar registry folios, 1359-F Jamabandi extracts, and Uttar Pradesh Bhulekh digital GIS shapefiles against this parcel.
+        </p>
+</div>
+</div>
+</div>
+<!-- Key Verification Modules Header -->
+<div class="flex items-center justify-between mb-space-sm px-1">
+<h2 class="font-label-lg text-text-primary tracking-tight">Modular Risk Breakdown</h2>
+<span class="font-caption text-text-secondary">4 Verification Checks</span>
+</div>
+<!-- Modular Disclosure Cards Stack -->
+<div class="flex flex-col gap-space-md mb-space-xl">
+<!-- Module A: Ownership Continuity -->
+<div class="bg-surface-default rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<span class="font-label-md text-text-secondary tracking-wide uppercase font-semibold">Title Continuity (30-Year Chain)</span>
+<span class="inline-flex items-center gap-1 bg-status-success-bg text-status-success-text px-2 py-0.5 rounded-lg font-label-sm font-semibold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+          Clean Chain Verified
+        </span>
+</div>
+<div class="mt-space-sm bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1.5">
+<div class="flex justify-between items-baseline text-body-sm">
+<span class="text-text-secondary font-body-sm">Primary Khatedar:</span>
+<span class="font-label-md text-text-primary text-right">Ramesh Chandra Verma</span>
+</div>
+<div class="flex justify-between items-baseline text-body-sm">
+<span class="text-text-secondary font-body-sm">Ownership Share:</span>
+<span class="font-label-md text-text-primary">100% Sole Title (0.420 Ha)</span>
+</div>
+<div class="flex justify-between items-baseline text-body-sm">
+<span class="text-text-secondary font-body-sm">Tehsildar Mutation:</span>
+<span class="font-label-md text-status-success-text flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">task_alt</span> Entry #891/2018 (Final)
+          </span>
+</div>
+</div>
+</div>
+<!-- Module B: Encumbrance & Lien Check (DANGER) -->
+<div class="bg-surface-default rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<span class="font-label-md text-text-secondary tracking-wide uppercase font-semibold">Encumbrance &amp; Charge</span>
+<span class="inline-flex items-center gap-1 bg-status-danger-bg text-status-danger-text px-2 py-0.5 rounded-lg font-label-sm font-semibold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">error</span>
+          Active Mortgage Found
+        </span>
+</div>
+<div class="mt-space-sm bg-status-danger-bg/40 rounded-lg p-space-sm text-body-sm">
+<p class="font-label-md text-status-danger-text mb-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">account_balance</span>
+          Bank of Baroda — Banthra Branch
+        </p>
+<p class="text-text-primary font-body-sm leading-snug">
+          Outstanding Kisan Credit Card Agricultural Term Loan of <strong class="font-bold">₹4,20,000</strong>. Mortgage Deed reg. under Bahi No. 1, Jild 412 on <span class="font-mono text-caption">14-Aug-2021</span>.
+        </p>
+<div class="mt-space-xs pt-space-xs flex items-center gap-1.5 text-caption text-status-danger-text font-semibold">
+<span class="material-symbols-outlined text-[16px]">gavel</span>
+          Action: Seller must provide Bank NDC / Form 16 before registry.
+        </div>
+</div>
+</div>
+<!-- Module C: Statutory & Land Ceiling Compliance -->
+<div class="bg-surface-default rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<span class="font-label-md text-text-secondary tracking-wide uppercase font-semibold">Zoning &amp; Conversion</span>
+<span class="inline-flex items-center gap-1 bg-status-success-bg text-status-success-text px-2 py-0.5 rounded-lg font-label-sm font-semibold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+          Section 143 Approved
+        </span>
+</div>
+<div class="mt-space-sm bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1.5">
+<div class="flex justify-between items-baseline text-body-sm">
+<span class="text-text-secondary font-body-sm">Designated Usage:</span>
+<span class="font-label-md text-status-success-text">Non-Agricultural / Residential</span>
+</div>
+<div class="flex justify-between items-baseline text-body-sm">
+<span class="text-text-secondary font-body-sm">SDM Order Ref:</span>
+<span class="font-label-md text-text-primary font-mono">SDM/SN/143/2020-21</span>
+</div>
+<div class="flex justify-between items-baseline text-body-sm">
+<span class="text-text-secondary font-body-sm">Ceiling Surplus:</span>
+<span class="font-label-md text-text-primary">Exempt (Under 5.058 Ha Limit)</span>
+</div>
+</div>
+</div>
+<!-- Module D: AI Satellite & Boundary Overlay (WARNING) -->
+<div class="bg-surface-default rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between gap-2 mb-space-xs">
+<span class="font-label-md text-text-secondary tracking-wide uppercase font-semibold">Cadastral Boundary AI</span>
+<span class="inline-flex items-center gap-1 bg-status-warning-bg text-status-warning-text px-2 py-0.5 rounded-lg font-label-sm font-semibold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">warning</span>
+          0.04 Ha Mismatch
+        </span>
+</div>
+<div class="mt-space-sm bg-status-warning-bg/40 rounded-lg p-space-sm">
+<div class="flex items-start gap-space-xs text-body-sm">
+<span class="material-symbols-outlined text-status-warning-text text-[18px] shrink-0 mt-0.5">straighten</span>
+<p class="text-text-primary font-body-sm leading-snug">
+            Computer vision comparison of European Space Agency satellite telemetry against official Tehsil village map detected physical fencing deviation encroaching slightly into eastern <strong class="font-semibold text-text-primary">Gram Sabha pasture reserve</strong>.
+          </p>
+</div>
+<div class="mt-space-xs text-caption text-text-secondary flex items-center justify-between">
+<span>Registered: 0.420 Ha</span>
+<span class="font-semibold text-status-warning-text">On-Ground Fenced: 0.460 Ha</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Accordion: Official Institutional Verifications -->
+<div class="bg-surface-default rounded-xl p-space-md shadow-sm mb-space-lg">
+<button class="w-full flex items-center justify-between text-left" id="toggle-registry-btn">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">account_balance_wallet</span>
+<span class="font-label-lg text-text-primary">Tribunal &amp; Statutory Searches</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary transition-transform duration-200" id="accordion-icon">expand_more</span>
+</button>
+<div class="mt-space-md pt-space-sm flex flex-col gap-space-sm" id="registry-details">
+<div class="flex items-center justify-between py-1 bg-surface-container-low px-space-sm rounded-lg">
+<div class="flex flex-col">
+<span class="font-label-md text-text-primary">RCMS UP Revenue Litigation</span>
+<span class="font-caption text-text-secondary">Sub-Divisional Officer / Collector Court</span>
+</div>
+<span class="bg-status-success-bg text-status-success-text px-2 py-0.5 rounded font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">check</span> 0 Pending Suits
+        </span>
+</div>
+<div class="flex items-center justify-between py-1 bg-surface-container-low px-space-sm rounded-lg">
+<div class="flex flex-col">
+<span class="font-label-md text-text-primary">Central Wakf Council Registry</span>
+<span class="font-caption text-text-secondary">UP Sunni &amp; Shia Auqaf Records</span>
+</div>
+<span class="bg-status-success-bg text-status-success-text px-2 py-0.5 rounded font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">check</span> Non-Wakf
+        </span>
+</div>
+<div class="flex items-center justify-between py-1 bg-surface-container-low px-space-sm rounded-lg">
+<div class="flex flex-col">
+<span class="font-label-md text-text-primary">Custodian Evacuee Property</span>
+<span class="font-caption text-text-secondary">Administration of Evacuee Property Act</span>
+</div>
+<span class="bg-status-success-bg text-status-success-text px-2 py-0.5 rounded font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">check</span> Clear
+        </span>
+</div>
+</div>
+</div>
+<!-- Trust Seal / Assurance Notice -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex items-center gap-space-sm mb-space-lg">
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0">policy</span>
+<p class="font-caption text-text-secondary leading-normal">
+      BhoomiCheck digital records are cryptographically tied to State Data Center endpoints under UP Real Estate (Regulation &amp; Development) norms.
+    </p>
+</div>
+<!-- Sticky Bottom Actions Container -->
+<div class="fixed bottom-0 left-0 right-0 p-space-md bg-surface-default shadow-md z-40 flex flex-col gap-space-xs max-w-md mx-auto">
+<button class="w-full h-12 bg-secondary active:bg-action-blue-hover text-on-primary font-label-lg rounded-lg flex items-center justify-center gap-space-xs shadow-sm focus:outline-none focus:ring-2 focus:ring-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span>Download Certified Audit Report (PDF)</span>
+</button>
+<button class="w-full h-12 bg-surface-default hover:bg-status-info-bg active:bg-surface-container-high text-secondary font-label-lg rounded-lg flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+<span>Request Legal Advocate Verification</span>
+</button>
+</div>
+</div>
+<script>
+  (function() {
+    const toggleBtn = document.getElementById('toggle-registry-btn');
+    const details = document.getElementById('registry-details');
+    const icon = document.getElementById('accordion-icon');
+    
+    if (toggleBtn && details && icon) {
+      let isOpen = true;
+      toggleBtn.addEventListener('click', function() {
+        isOpen = !isOpen;
+        if (isOpen) {
+          details.classList.remove('hidden');
+          icon.style.transform = 'rotate(0deg)';
+        } else {
+          details.classList.add('hidden');
+          icon.style.transform = 'rotate(-90deg)';
+        }
+      });
+    }
+  })();
+</script></main></body></html>

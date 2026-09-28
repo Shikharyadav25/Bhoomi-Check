@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#F5F6F7;}body{overscroll-behavior:none;font-family:'Public Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "border-strong": "#71767A", "inverse-on-surface": "#edf1f6", "surface-container-highest": "#dfe3e7", "on-error": "#ffffff", "primary-container": "#162e51", "outline": "#74777f", "on-tertiary-fixed-variant": "#5d4200", "status-warning-bg": "#FEF0E4", "surface-container": "#eaeef3", "tertiary-container": "#3e2b00", "error": "#ba1a1a", "surface-container-high": "#e4e9ed", "surface-variant": "#dfe3e7", "surface-container-low": "#f0f4f9", "status-info-text": "#00BDE3", "on-surface": "#171c20", "background": "#f6fafe", "on-primary-fixed-variant": "#31476b", "official-banner-bg": "#F0F0F0", "tertiary-fixed": "#ffdea6", "primary-fixed-dim": "#b1c7f2", "inverse-surface": "#2c3135", "text-primary": "#1B1B1B", "surface-tint": "#495f85", "status-info-bg": "#E7F6F8", "secondary": "#0861a5", "on-tertiary": "#ffffff", "status-danger-text": "#D54309", "primary-fixed": "#d6e3ff", "on-error-container": "#93000a", "seller-header": "#0B4151", "on-tertiary-container": "#c28c00", "on-secondary": "#ffffff", "secondary-fixed-dim": "#a0c9ff", "tertiary": "#241700", "on-secondary-fixed": "#001c37", "inverse-primary": "#b1c7f2", "on-primary-container": "#8096bf", "primary": "#001939", "status-warning-text": "#FA9441", "action-blue-hover": "#1A4480", "text-secondary": "#565C65", "surface": "#f6fafe", "surface-container-lowest": "#ffffff", "surface-dim": "#d6dadf", "status-success-bg": "#ECF3EC", "status-danger-bg": "#F4E3DB", "on-primary-fixed": "#001b3d", "on-secondary-fixed-variant": "#00497f", "on-primary": "#ffffff", "on-surface-variant": "#44474e", "border-subtle": "#DFE1E2", "status-success-text": "#00A91C", "on-background": "#171c20", "secondary-container": "#75b4fe", "outline-variant": "#c4c6cf", "on-tertiary-fixed": "#271900", "secondary-fixed": "#d2e4ff", "surface-default": "#FFFFFF", "canvas-background": "#F5F6F7", "surface-bright": "#f6fafe", "on-secondary-container": "#004579", "error-container": "#ffdad6", "tertiary-fixed-dim": "#fcbc2b" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-lg": "1.5rem", "gutter-desktop": "2rem", "gutter": "1rem", "space-md": "1rem", "margin": "1rem", "margin-desktop": "3rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-xl": "2rem", "margin-tablet": "2rem", "gutter-tablet": "1.5rem" }, fontFamily: { "body-sm": ["Public Sans"], "label-md": ["Public Sans"], "headline-lg": ["Public Sans"], "body-md": ["Public Sans"], "caption": ["Public Sans"], "headline-md": ["Public Sans"], "label-lg": ["Public Sans"], "body-lg": ["Public Sans"], "label-sm": ["Public Sans"], "headline-sm": ["Public Sans"] }, fontSize: { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "caption": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-lg": ["16px", { "lineHeight": "20px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }] } } } };</script><style>body { min-height: max(884px, 100dvh); }</style></head><body class="bg-canvas-background font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-primary-container shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-28 flex flex-col"><div class="h-8 bg-official-banner-bg px-margin flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-text-secondary text-[16px]">shield</span><span class="font-label-sm text-text-secondary truncate">An official-style service. Not legal advice.</span></div><button class="flex items-center gap-space-xs font-label-sm text-secondary underline hover:text-action-blue-hover min-h-[32px] shrink-0"><span>Here's how you know</span><span class="material-symbols-outlined text-[14px]">arrow_drop_down</span></button></div><div class="h-[3px] bg-tertiary-fixed-dim w-full"></div><div class="h-[77px] px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="BhoomiCheck Civic Shield Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WFFikPKN9r6o_CU7stN8O4_g3v8Bmi9XXeFvYCX0bvImZwD3ARcELQGfBn_f5my2-oaypjdb2s_pGZ6m7RJpDgz2TH2Vv2kqOdxFUH-lA0UczP4Xkg7Uykmsb_Wn62Dq4ZriitUqRfCSw9hB8uGyR6A1o0kpqn33byu1xj8qWgL7sSwYzww0veo3EtP81YkH-jHANbq5QDshfjcLFEgy4_vnB7omCmUIGPKQg2yY9hMkjNXfpbL-_zb2s1"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-on-primary truncate">BhoomiCheck</span><span class="font-label-sm text-on-primary-container bg-surface-container-highest/20 px-space-xs py-0.5 rounded-lg border border-outline-variant/30 hidden xs:inline">UP</span></div><span class="font-caption text-surface-container-high truncate">Civil &amp; Statutory Land Verification Portal</span></div></div><div class="flex items-center gap-space-xs shrink-0"><button class="h-8 px-space-sm rounded-lg bg-surface-container-highest/20 border border-outline-variant/40 flex items-center gap-space-xs hover:bg-surface-container-highest/30 active:bg-surface-container-highest/40 text-on-primary font-label-sm min-h-[32px]"><span class="material-symbols-outlined text-[16px]">translate</span><span>English | हिन्दी</span></button></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-28 pb-safe bg-canvas-background min-h-screen"><div class="flex flex-col w-full pb-8">
+<!-- USWDS-Inspired Step Indicator -->
+<div class="flex flex-col gap-space-xs mt-space-md mb-space-lg">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-text-secondary uppercase tracking-wider">Step 1 of 2</span>
+<span class="font-label-sm text-primary font-bold">Jurisdiction &amp; Tehsil</span>
+</div>
+<!-- Progress Track Segments -->
+<div class="grid grid-cols-2 gap-space-xs w-full items-center">
+<div class="h-1.5 rounded-full bg-tertiary-fixed-dim transition-all"></div>
+<div class="h-1.5 rounded-full bg-surface-container-highest"></div>
+</div>
+</div>
+<!-- Header & Context Area -->
+<div class="flex flex-col gap-space-xs mb-space-lg">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-status-info-bg text-primary-container font-label-sm">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">person_search</span>
+        Buyer mode
+      </span>
+<span class="font-label-sm text-text-secondary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px] text-status-success-text">verified</span>
+        UP Bhulekh Sync
+      </span>
+</div>
+<h1 class="font-headline-lg text-primary text-[28px] leading-[34px] tracking-tight mt-1">
+      Select your location
+    </h1>
+<p class="font-body-md text-text-secondary leading-relaxed">
+      Select the administrative district where the parcel is registered to query the official UP Bhulekh registry.
+    </p>
+</div>
+<!-- Location Form Card -->
+<div class="bg-surface-default rounded-xl shadow-sm p-space-md flex flex-col gap-space-lg mb-space-lg">
+<!-- State Field (Pre-locked) -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<label class="font-body-lg text-text-primary text-[15px]" for="state-input">State / राज्य</label>
+<span class="font-label-sm text-text-secondary flex items-center gap-1 text-[12px]">
+<span class="material-symbols-outlined text-[14px]">lock</span> Default Jurisdiction
+        </span>
+</div>
+<div class="relative flex items-center">
+<div class="w-full h-12 px-space-md bg-surface-container-low rounded-lg flex items-center justify-between text-text-primary">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">account_balance</span>
+<span class="font-body-md font-semibold text-text-primary">Uttar Pradesh (उत्तर प्रदेश)</span>
+</div>
+<span class="material-symbols-outlined text-status-success-text text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<p class="font-caption text-text-secondary">Statutory database currently locked to UP Land Revenue jurisdiction.</p>
+</div>
+<!-- District Selector -->
+<div class="flex flex-col gap-1.5" id="district-group">
+<div class="flex items-center justify-between">
+<label class="font-body-lg text-text-primary text-[15px]" for="district-select">
+          District / ज़िला <span class="text-status-danger-text">*</span>
+</label>
+<span class="font-caption text-secondary cursor-pointer hover:underline" id="reset-district-btn">Clear</span>
+</div>
+<div class="relative">
+<div class="w-full h-12 px-space-md bg-surface-container rounded-lg flex items-center justify-between cursor-pointer transition-all hover:bg-surface-container-high" id="district-display">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">location_on</span>
+<span class="font-body-md font-semibold text-text-primary" id="selected-district-label">Lucknow (लखनऊ)</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary transition-transform duration-200" id="district-chevron">expand_more</span>
+</div>
+<!-- Custom Dropdown List -->
+<div class="hidden absolute top-14 left-0 right-0 z-30 bg-surface-default rounded-xl shadow-lg p-space-sm flex flex-col gap-1 max-h-56 overflow-y-auto" id="district-dropdown-panel">
+<button class="district-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Lucknow (लखनऊ)" type="button">
+<span>Lucknow (लखनऊ)</span>
+<span class="font-caption text-text-secondary">Division Head</span>
+</button>
+<button class="district-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Varanasi (वाराणसी)" type="button">
+<span>Varanasi (वाराणसी)</span>
+<span class="font-caption text-text-secondary">Purvanchal</span>
+</button>
+<button class="district-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Prayagraj (प्रयागराज)" type="button">
+<span>Prayagraj (प्रयागराज)</span>
+<span class="font-caption text-text-secondary">Revenue HQ</span>
+</button>
+<button class="district-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Gorakhpur (गोरखपुर)" type="button">
+<span>Gorakhpur (गोरखपुर)</span>
+<span class="font-caption text-text-secondary">North-East</span>
+</button>
+<button class="district-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Kanpur Nagar (कानपुर नगर)" type="button">
+<span>Kanpur Nagar (कानपुर नगर)</span>
+<span class="font-caption text-text-secondary">Industrial</span>
+</button>
+</div>
+</div>
+<!-- Quick Selector Pills -->
+<div class="flex flex-col gap-1 mt-1">
+<span class="font-caption text-text-secondary">Popular queries:</span>
+<div class="flex flex-wrap gap-1.5" id="quick-pills">
+<button class="quick-pill px-2.5 py-1 rounded-full bg-surface-container hover:bg-surface-container-highest text-primary font-label-sm active:scale-95 transition-transform" data-name="Lucknow (लखनऊ)" type="button">Lucknow</button>
+<button class="quick-pill px-2.5 py-1 rounded-full bg-surface-container hover:bg-surface-container-highest text-primary font-label-sm active:scale-95 transition-transform" data-name="Varanasi (वाराणसी)" type="button">Varanasi</button>
+<button class="quick-pill px-2.5 py-1 rounded-full bg-surface-container hover:bg-surface-container-highest text-primary font-label-sm active:scale-95 transition-transform" data-name="Prayagraj (प्रयागराज)" type="button">Prayagraj</button>
+<button class="quick-pill px-2.5 py-1 rounded-full bg-surface-container hover:bg-surface-container-highest text-primary font-label-sm active:scale-95 transition-transform" data-name="Gorakhpur (गोरखपुर)" type="button">Gorakhpur</button>
+</div>
+</div>
+</div>
+<!-- Tehsil Selector (Optional) -->
+<div class="flex flex-col gap-1.5 relative">
+<div class="flex items-center justify-between">
+<label class="font-body-lg text-text-primary text-[15px]" for="tehsil-select">
+          Tehsil / तहसील <span class="font-caption text-text-secondary font-normal">(Optional)</span>
+</label>
+<span class="font-label-sm text-secondary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[15px]">travel_explore</span>
+          Auto-detect
+        </span>
+</div>
+<div class="relative">
+<div class="w-full h-12 px-space-md bg-surface-container rounded-lg flex items-center justify-between cursor-pointer hover:bg-surface-container-high transition-all" id="tehsil-display">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">domain</span>
+<span class="font-body-md text-text-primary font-medium" id="selected-tehsil-label">Sarojini Nagar (सरोजिनी नगर)</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary" id="tehsil-chevron">unfold_more</span>
+</div>
+<!-- Tehsil Dropdown Panel -->
+<div class="hidden absolute top-14 left-0 right-0 z-30 bg-surface-default rounded-xl shadow-lg p-space-sm flex flex-col gap-1 max-h-48 overflow-y-auto" id="tehsil-dropdown-panel">
+<button class="tehsil-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Sarojini Nagar (सरोजिनी नगर)" type="button">
+<span>Sarojini Nagar</span>
+<span class="font-caption text-status-success-text">Fast Match</span>
+</button>
+<button class="tehsil-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Bakshi Ka Talab (बख्शी का तालाब)" type="button">
+<span>Bakshi Ka Talab</span>
+</button>
+<button class="tehsil-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Mohanlalganj (मोहनलालगंज)" type="button">
+<span>Mohanlalganj</span>
+</button>
+<button class="tehsil-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Sadar (सदर)" type="button">
+<span>Lucknow Sadar</span>
+</button>
+<button class="tehsil-opt flex items-center justify-between p-2 rounded hover:bg-surface-container-low text-left font-body-sm text-text-primary" data-value="Malihabad (मलिहाबाद)" type="button">
+<span>Malihabad</span>
+</button>
+</div>
+</div>
+<p class="font-caption text-text-secondary">Specifying tehsil speeds up Khasra/Gata records indexing by 60%.</p>
+</div>
+</div>
+<!-- Informational Callout (Govt/Statutory Notice) -->
+<div class="bg-status-info-bg rounded-xl p-space-md flex items-start gap-space-sm mb-space-xl relative overflow-hidden">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-status-info-text"></div>
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">info</span>
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-seller-header uppercase tracking-wider">Statutory Notice</span>
+<p class="font-body-sm text-text-primary leading-snug">
+        Land rules and records differ by district. Urban ceilings, circle rates, and authority NOC rules (LDA, ADA, GDA) vary across jurisdictions.
+      </p>
+</div>
+</div>
+<!-- Bottom Action Section (Accessible & Reachable) -->
+<div class="flex flex-col gap-space-sm sticky bottom-2 bg-canvas-background/90 backdrop-blur-md pt-2">
+<button class="w-full h-12 bg-secondary hover:bg-action-blue-hover active:bg-primary-container text-on-primary font-label-lg rounded-lg shadow-md flex items-center justify-center gap-space-xs transition-colors" id="continue-button" type="button">
+<span>Continue to Parcel Verification</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<div class="flex items-center justify-center gap-space-xs py-1">
+<span class="material-symbols-outlined text-[16px] text-text-secondary">lock</span>
+<span class="font-caption text-text-secondary">Direct Read-Only Encrypted Connection to UP Registry</span>
+</div>
+</div>
+</div>
+<script>
+  (function initLocationSelector() {
+    const districtDisplay = document.getElementById('district-display');
+    const districtChevron = document.getElementById('district-chevron');
+    const districtPanel = document.getElementById('district-dropdown-panel');
+    const selectedDistrictLabel = document.getElementById('selected-district-label');
+    const resetDistrictBtn = document.getElementById('reset-district-btn');
+
+    const tehsilDisplay = document.getElementById('tehsil-display');
+    const tehsilPanel = document.getElementById('tehsil-dropdown-panel');
+    const tehsilChevron = document.getElementById('tehsil-chevron');
+    const selectedTehsilLabel = document.getElementById('selected-tehsil-label');
+
+    const districtOptions = document.querySelectorAll('.district-opt');
+    const tehsilOptions = document.querySelectorAll('.tehsil-opt');
+    const quickPills = document.querySelectorAll('.quick-pill');
+    const continueBtn = document.getElementById('continue-button');
+
+    function toggleDistrict(show) {
+      const isVisible = show ?? districtPanel.classList.contains('hidden');
+      if (isVisible) {
+        districtPanel.classList.remove('hidden');
+        districtChevron.style.transform = 'rotate(180deg)';
+        tehsilPanel.classList.add('hidden');
+        tehsilChevron.style.transform = 'rotate(0deg)';
+      } else {
+        districtPanel.classList.add('hidden');
+        districtChevron.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    function toggleTehsil(show) {
+      const isVisible = show ?? tehsilPanel.classList.contains('hidden');
+      if (isVisible) {
+        tehsilPanel.classList.remove('hidden');
+        tehsilChevron.style.transform = 'rotate(180deg)';
+        districtPanel.classList.add('hidden');
+        districtChevron.style.transform = 'rotate(0deg)';
+      } else {
+        tehsilPanel.classList.add('hidden');
+        tehsilChevron.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    districtDisplay.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleDistrict();
+    });
+
+    tehsilDisplay.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleTehsil();
+    });
+
+    districtOptions.forEach(opt => {
+      opt.addEventListener('click', () => {
+        const val = opt.getAttribute('data-value');
+        selectedDistrictLabel.textContent = val;
+        toggleDistrict(false);
+      });
+    });
+
+    tehsilOptions.forEach(opt => {
+      opt.addEventListener('click', () => {
+        const val = opt.getAttribute('data-value');
+        selectedTehsilLabel.textContent = val;
+        toggleTehsil(false);
+      });
+    });
+
+    quickPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const val = pill.getAttribute('data-name');
+        selectedDistrictLabel.textContent = val;
+        // visual response
+        pill.classList.add('bg-secondary-fixed');
+        setTimeout(() => pill.classList.remove('bg-secondary-fixed'), 250);
+      });
+    });
+
+    resetDistrictBtn.addEventListener('click', () => {
+      selectedDistrictLabel.textContent = 'Select District...';
+      selectedTehsilLabel.textContent = 'Optional';
+    });
+
+    document.addEventListener('click', () => {
+      districtPanel.classList.add('hidden');
+      tehsilPanel.classList.add('hidden');
+      districtChevron.style.transform = 'rotate(0deg)';
+      tehsilChevron.style.transform = 'rotate(0deg)';
+    });
+
+    continueBtn.addEventListener('click', () => {
+      const originalText = continueBtn.innerHTML;
+      continueBtn.innerHTML = `
+        <span class="material-symbols-outlined text-[20px] animate-spin">refresh</span>
+        <span>Loading UP Land Parcel DB...</span>
+      `;
+      setTimeout(() => {
+        continueBtn.innerHTML = originalText;
+      }, 1200);
+    });
+  })();
+</script></main></body></html>

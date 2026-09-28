@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#F5F6F7;}body{overscroll-behavior:none;font-family:'Public Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "border-strong": "#71767A", "inverse-on-surface": "#edf1f6", "surface-container-highest": "#dfe3e7", "on-error": "#ffffff", "primary-container": "#162e51", "outline": "#74777f", "on-tertiary-fixed-variant": "#5d4200", "status-warning-bg": "#FEF0E4", "surface-container": "#eaeef3", "tertiary-container": "#3e2b00", "error": "#ba1a1a", "surface-container-high": "#e4e9ed", "surface-variant": "#dfe3e7", "surface-container-low": "#f0f4f9", "status-info-text": "#00BDE3", "on-surface": "#171c20", "background": "#f6fafe", "on-primary-fixed-variant": "#31476b", "official-banner-bg": "#F0F0F0", "tertiary-fixed": "#ffdea6", "primary-fixed-dim": "#b1c7f2", "inverse-surface": "#2c3135", "text-primary": "#1B1B1B", "surface-tint": "#495f85", "status-info-bg": "#E7F6F8", "secondary": "#0861a5", "on-tertiary": "#ffffff", "status-danger-text": "#D54309", "primary-fixed": "#d6e3ff", "on-error-container": "#93000a", "seller-header": "#0B4151", "on-tertiary-container": "#c28c00", "on-secondary": "#ffffff", "secondary-fixed-dim": "#a0c9ff", "tertiary": "#241700", "on-secondary-fixed": "#001c37", "inverse-primary": "#b1c7f2", "on-primary-container": "#8096bf", "primary": "#001939", "status-warning-text": "#FA9441", "action-blue-hover": "#1A4480", "text-secondary": "#565C65", "surface": "#f6fafe", "surface-container-lowest": "#ffffff", "surface-dim": "#d6dadf", "status-success-bg": "#ECF3EC", "status-danger-bg": "#F4E3DB", "on-primary-fixed": "#001b3d", "on-secondary-fixed-variant": "#00497f", "on-primary": "#ffffff", "on-surface-variant": "#44474e", "border-subtle": "#DFE1E2", "status-success-text": "#00A91C", "on-background": "#171c20", "secondary-container": "#75b4fe", "outline-variant": "#c4c6cf", "on-tertiary-fixed": "#271900", "secondary-fixed": "#d2e4ff", "surface-default": "#FFFFFF", "canvas-background": "#F5F6F7", "surface-bright": "#f6fafe", "on-secondary-container": "#004579", "error-container": "#ffdad6", "tertiary-fixed-dim": "#fcbc2b" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-lg": "1.5rem", "gutter-desktop": "2rem", "gutter": "1rem", "space-md": "1rem", "margin": "1rem", "margin-desktop": "3rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-xl": "2rem", "margin-tablet": "2rem", "gutter-tablet": "1.5rem" }, fontFamily: { "body-sm": ["Public Sans"], "label-md": ["Public Sans"], "headline-lg": ["Public Sans"], "body-md": ["Public Sans"], "caption": ["Public Sans"], "headline-md": ["Public Sans"], "label-lg": ["Public Sans"], "body-lg": ["Public Sans"], "label-sm": ["Public Sans"], "headline-sm": ["Public Sans"] }, fontSize: { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "caption": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-lg": ["16px", { "lineHeight": "20px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }] } } } };</script><style>body { min-height: max(884px, 100dvh); }</style></head><body class="bg-canvas-background font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-primary-container shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-28 flex flex-col"><div class="h-8 bg-official-banner-bg px-margin flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-text-secondary text-[16px]">shield</span><span class="font-label-sm text-text-secondary truncate">An official-style service. Not legal advice.</span></div><button class="flex items-center gap-space-xs font-label-sm text-secondary underline hover:text-action-blue-hover min-h-[32px] shrink-0"><span>Here's how you know</span><span class="material-symbols-outlined text-[14px]">arrow_drop_down</span></button></div><div class="h-[3px] bg-tertiary-fixed-dim w-full"></div><div class="h-[77px] px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="BhoomiCheck Civic Shield Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WFFikPKN9r6o_CU7stN8O4_g3v8Bmi9XXeFvYCX0bvImZwD3ARcELQGfBn_f5my2-oaypjdb2s_pGZ6m7RJpDgz2TH2Vv2kqOdxFUH-lA0UczP4Xkg7Uykmsb_Wn62Dq4ZriitUqRfCSw9hB8uGyR6A1o0kpqn33byu1xj8qWgL7sSwYzww0veo3EtP81YkH-jHANbq5QDshfjcLFEgy4_vnB7omCmUIGPKQg2yY9hMkjNXfpbL-_zb2s1"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-on-primary truncate">BhoomiCheck</span><span class="font-label-sm text-on-primary-container bg-surface-container-highest/20 px-space-xs py-0.5 rounded-lg border border-outline-variant/30 hidden xs:inline">UP</span></div><span class="font-caption text-surface-container-high truncate">Buyer Due Diligence Desk</span></div></div><div class="flex items-center gap-space-sm shrink-0"><a class="h-8 px-space-sm rounded-lg bg-surface-container-highest/20 border border-outline-variant/40 flex items-center gap-space-xs hover:bg-surface-container-highest/30 active:bg-surface-container-highest/40 text-on-primary" data-path="seller-desk-compliance-readiness" href="#"><span class="material-symbols-outlined text-tertiary-fixed-dim text-[16px]">gavel</span><span class="font-label-sm">Buyer Mode</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-28 pb-20 bg-canvas-background min-h-screen"><div class="flex flex-col w-full pb-10 space-y-4">
+<!-- Breadcrumb & Mode context -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-text-secondary min-w-0">
+<span class="material-symbols-outlined text-[16px] text-secondary shrink-0">account_balance</span>
+<span class="font-caption text-caption text-text-secondary truncate">UP Revenue Code 2006 • Sec 89</span>
+</div>
+<span class="inline-flex items-center gap-1 bg-surface-container-high px-2 py-0.5 rounded-full text-on-surface-variant font-label-sm text-label-sm shrink-0">
+<span class="w-1.5 h-1.5 rounded-full bg-status-success-text"></span>
+      Buyer mode
+    </span>
+</div>
+<!-- Page Title & Authority Subtext -->
+<div class="space-y-1">
+<h1 class="font-headline-lg text-headline-lg text-text-primary tracking-tight">Check buyer eligibility</h1>
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+      Verify if statutory land ceiling caps or caste protection clauses restrict this land acquisition in Uttar Pradesh.
+    </p>
+</div>
+<!-- Micro Progress / USWDS-inspired Step Counter -->
+<div class="bg-surface-default p-3 rounded-lg shadow-sm space-y-2">
+<div class="flex items-center justify-between text-text-secondary font-label-sm text-label-sm">
+<span class="font-semibold text-secondary">Step 1 of 2: Statutory Parameter Assessment</span>
+<span class="text-status-success-text flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[14px]">bolt</span> Real-time evaluated
+      </span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden flex">
+<div class="w-full bg-secondary h-full rounded-full"></div>
+</div>
+</div>
+<!-- SECTION 1: Buyer Profile -->
+<section class="bg-surface-default rounded-lg p-4 shadow-sm space-y-4">
+<div class="flex items-center gap-2 pb-2 border-b border-border-subtle">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">1</div>
+<h2 class="font-headline-sm text-headline-sm text-text-primary">Buyer Profile</h2>
+</div>
+<!-- Question: Agriculturist status -->
+<div class="space-y-2">
+<label class="block font-label-lg text-label-lg text-text-primary">
+        Are you an agriculturist (registered farmer) in Uttar Pradesh?
+      </label>
+<p class="font-caption text-caption text-text-secondary">Non-agriculturists require Section 80 clearance from Sub-Divisional Magistrate (SDM).</p>
+<div class="grid grid-cols-2 gap-3 pt-1">
+<label class="relative flex items-center justify-center gap-2 py-2.5 px-3 rounded-md cursor-pointer transition-all bg-status-info-bg text-secondary font-label-lg text-label-lg shadow-sm" id="pill-yes">
+<input checked="" class="sr-only" name="agriculturist" onchange="toggleAgriculturist(this)" type="radio" value="yes"/>
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Yes, Registered</span>
+</label>
+<label class="relative flex items-center justify-center gap-2 py-2.5 px-3 rounded-md cursor-pointer transition-all bg-surface-container text-text-secondary font-label-lg text-label-lg hover:bg-surface-container-high" id="pill-no">
+<input class="sr-only" name="agriculturist" onchange="toggleAgriculturist(this)" type="radio" value="no"/>
+<span class="material-symbols-outlined text-[18px]">domain_disabled</span>
+<span>No / Other</span>
+</label>
+</div>
+</div>
+<!-- Dropdown: Social Category -->
+<div class="space-y-1.5">
+<label class="block font-label-lg text-label-lg text-text-primary" for="casteCategory">
+        Applicant Caste / Social Category
+      </label>
+<div class="relative">
+<select class="w-full h-12 pl-3 pr-10 bg-surface-container-lowest text-text-primary font-body-md text-body-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:bg-white appearance-none cursor-pointer" id="casteCategory">
+<option selected="" value="GEN">General (UR)</option>
+<option value="OBC">Other Backward Class (OBC)</option>
+<option value="SC">Scheduled Caste (SC)</option>
+<option value="ST">Scheduled Tribe (ST)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 pointer-events-none text-text-secondary text-[22px]">arrow_drop_down</span>
+</div>
+<div class="flex items-start gap-1.5 p-2.5 rounded-md bg-surface-container-low text-text-secondary">
+<span class="material-symbols-outlined text-secondary text-[16px] mt-0.5 shrink-0">info</span>
+<span class="font-caption text-caption">Under Sec 98/99, land owned by SC/ST bhumidhars cannot be transferred to a non-SC/ST buyer without explicit Collector permit.</span>
+</div>
+</div>
+<!-- Number Input: Current Land Holdings -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between">
+<label class="block font-label-lg text-label-lg text-text-primary" for="existingHolding">
+          Existing agricultural land holding in UP
+        </label>
+<span class="font-caption text-caption text-text-secondary">In Acres</span>
+</div>
+<div class="relative">
+<input class="w-full h-12 pl-3 pr-16 bg-surface-container-lowest text-text-primary font-body-md text-body-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary" id="existingHolding" step="0.01" type="number" value="3.50"/>
+<span class="absolute right-3 top-3.5 font-label-md text-label-md text-text-secondary">Acres</span>
+</div>
+<p class="font-caption text-caption text-text-secondary">Aggregate holdings of applicant + spouse + minor children across all UP districts.</p>
+</div>
+</section>
+<!-- SECTION 2: Target Land Details -->
+<section class="bg-surface-default rounded-lg p-4 shadow-sm space-y-4">
+<div class="flex items-center gap-2 pb-2 border-b border-border-subtle">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">2</div>
+<h2 class="font-headline-sm text-headline-sm text-text-primary">Target Land Details</h2>
+</div>
+<!-- Input: Khasra Number -->
+<div class="space-y-1.5">
+<label class="block font-label-lg text-label-lg text-text-primary" for="khasraNo">
+        Target Plot Khasra Number
+      </label>
+<div class="relative">
+<input class="w-full h-12 pl-10 pr-3 bg-surface-container-lowest text-text-primary font-body-md text-body-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary" id="khasraNo" type="text" value="Khasra 248/2"/>
+<span class="material-symbols-outlined absolute left-3 top-3.5 text-text-secondary text-[20px]">pin_drop</span>
+</div>
+<span class="font-caption text-caption text-text-secondary">Mauja Rampur, Tehsil Sadar, Dist. Lucknow</span>
+</div>
+<!-- Dropdown: Land Classification -->
+<div class="space-y-1.5">
+<label class="block font-label-lg text-label-lg text-text-primary" for="landClass">
+        Land Classification
+      </label>
+<div class="relative">
+<select class="w-full h-12 pl-3 pr-10 bg-surface-container-lowest text-text-primary font-body-md text-body-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary appearance-none cursor-pointer" id="landClass">
+<option selected="" value="krishi">Agricultural (Krishi Bhumi)</option>
+<option value="residential">Residential / Non-Agricultural (Sec 143/80)</option>
+<option value="industrial">Commercial / Industrial Plot</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 pointer-events-none text-text-secondary text-[22px]">arrow_drop_down</span>
+</div>
+</div>
+<!-- Input: Proposed Area -->
+<div class="space-y-1.5">
+<label class="block font-label-lg text-label-lg text-text-primary" for="proposedArea">
+        Proposed Area to Acquire
+      </label>
+<div class="relative">
+<input class="w-full h-12 pl-10 pr-3 bg-surface-container-lowest text-text-primary font-body-md text-body-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary" id="proposedArea" type="text" value="0.420 Hectares (1.037 Acres)"/>
+<span class="material-symbols-outlined absolute left-3 top-3.5 text-text-secondary text-[20px]">square_foot</span>
+</div>
+<div class="flex items-center gap-1 font-caption text-caption text-text-secondary">
+<span class="material-symbols-outlined text-[14px] text-status-success-text">sync_alt</span>
+<span>Standard conversion: 1 Hectare = 2.47105 Acres</span>
+</div>
+</div>
+</section>
+<!-- RESULT SECTION: Authoritative Civic Status -->
+<section class="bg-surface-default rounded-lg p-4 shadow-sm space-y-4">
+<!-- Section Header with State Legends -->
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<h3 class="font-label-lg text-label-lg text-text-primary uppercase tracking-wider text-xs">Statutory Determination</h3>
+<span class="font-caption text-caption text-text-secondary">Formula v4.2 • UP Rev. 2006</span>
+</div>
+<!-- State Indicator Pill-Matrix / Legend -->
+<div class="grid grid-cols-3 gap-1.5 p-1 bg-surface-container-low rounded-md">
+<div class="flex items-center justify-center gap-1 py-1 rounded bg-status-success-bg text-status-success-text font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>Eligible</span>
+</div>
+<div class="flex items-center justify-center gap-1 py-1 rounded text-text-secondary font-label-sm text-label-sm opacity-50">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>Permission</span>
+</div>
+<div class="flex items-center justify-center gap-1 py-1 rounded text-text-secondary font-label-sm text-label-sm opacity-50">
+<span class="material-symbols-outlined text-[14px]">cancel</span>
+<span>Restricted</span>
+</div>
+</div>
+</div>
+<!-- Active High-Contrast Civic Result Banner -->
+<div class="p-4 rounded-lg bg-status-success-bg border border-status-success-text/30 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-status-success-text text-on-primary font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>ELIGIBLE TO PURCHASE</span>
+</div>
+<span class="font-label-sm text-label-sm text-status-success-text font-bold">Clear Ceiling Clearance</span>
+</div>
+<p class="font-body-md text-body-md text-text-primary leading-normal">
+        Total post-acquisition holding (<span class="font-semibold text-secondary">4.537 acres</span>) remains well under the statutory ceiling limit of <span class="font-semibold">12.50 acres</span> (5.058 hectares).
+      </p>
+<!-- Holding Visual Meter -->
+<div class="space-y-1.5 bg-surface-default/70 p-3 rounded-md">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-text-secondary">Current: 3.50 ac</span>
+<span class="font-semibold text-text-primary">Combined: 4.54 / 12.50 ac</span>
+<span class="text-text-secondary">Cap: 12.50 ac</span>
+</div>
+<div class="w-full h-3 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary" style="width: 28%;" title="Existing 3.50 Acres"></div>
+<div class="h-full bg-status-success-text" style="width: 8.3%;" title="Proposed 1.037 Acres"></div>
+<div class="h-full bg-transparent flex-1"></div>
+</div>
+<div class="flex items-center justify-between text-[11px] text-text-secondary">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary inline-block"></span> Existing Holding</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-status-success-text inline-block"></span> Proposed Acquisition</span>
+<span>36.3% of Max Ceiling</span>
+</div>
+</div>
+</div>
+<!-- Statutory Reference Card -->
+<div class="p-3.5 rounded-lg bg-surface-container-low border border-border-subtle space-y-2">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">menu_book</span>
+<div class="space-y-1">
+<h4 class="font-label-md text-label-md text-text-primary font-bold">
+            UP Revenue Code 2006, Section 89
+          </h4>
+<p class="font-body-sm text-body-sm text-text-secondary leading-snug">
+            "Restriction on transfer by a bhumidhar with transferable rights" — No person shall acquire land where total holding exceeds twelve and a half acres.
+          </p>
+</div>
+</div>
+<div class="pt-1 flex items-center justify-between border-t border-border-subtle/60">
+<span class="font-caption text-caption text-text-secondary">Tehsil Gazetted Standard</span>
+<button class="inline-flex items-center gap-1 text-secondary font-label-sm text-label-sm font-semibold hover:underline" onclick="toggleLegalModal()" type="button">
+<span>Read Section 89 text</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Legal Modal / Collapsible Section 89 Full Reference (Interactive Sheet) -->
+<div class="hidden p-4 rounded-lg bg-surface-container-highest border border-border-strong space-y-3" id="legalModal">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-text-primary font-bold">Official Statutory Digest: Section 89</span>
+<button class="text-text-secondary hover:text-text-primary" onclick="toggleLegalModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="text-body-sm font-body-sm text-text-secondary space-y-2 max-h-48 overflow-y-auto pr-1">
+<p><strong>Sub-section (1):</strong> No bhumidhar with transferable rights shall have the right to transfer any land by sale or gift where the transferee shall, as a result of the transfer, become entitled to land which together with land already held by him will in aggregate exceed twelve and a half acres (12.50 acres) in Uttar Pradesh.</p>
+<p><strong>Sub-section (2):</strong> Any transfer made in contravention of sub-section (1) shall be void, and the excess land shall vest in the State Government free from all encumbrances under Section 104.</p>
+</div>
+</div>
+<!-- Bottom Interactive Actions -->
+<div class="space-y-2.5 pt-2">
+<!-- Primary CTA: 48px height, #005EA2 fill -->
+<button class="w-full min-h-[48px] px-6 py-3 rounded-lg bg-[#005EA2] hover:bg-action-blue-hover text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-sm transition-colors active:scale-[0.99]" onclick="triggerDownload()" type="button">
+<span class="material-symbols-outlined text-[20px]">download_for_offline</span>
+<span id="downloadBtnText">Download Eligibility Certificate (PDF)</span>
+</button>
+<!-- Secondary CTA -->
+<a class="w-full min-h-[48px] px-6 py-3 rounded-lg bg-surface-default hover:bg-status-info-bg text-[#005EA2] border-2 border-[#005EA2] font-label-lg text-label-lg flex items-center justify-center gap-2 transition-colors" data-path="parcel-audit-detail-ai-verification" href="#">
+<span class="material-symbols-outlined text-[20px]">description</span>
+<span>Review Land Details</span>
+</a>
+<!-- Civic Disclaimer Footer -->
+<div class="text-center pt-2">
+<p class="font-caption text-caption text-text-secondary">
+        Generated pursuant to UP Revenue Registry parameters. Official verification seal requires Digital Signature through Bhulekh UP Portal.
+      </p>
+</div>
+</div>
+</div>
+<script>
+  function toggleAgriculturist(element) {
+    const pillYes = document.getElementById('pill-yes');
+    const pillNo = document.getElementById('pill-no');
+    if (element.value === 'yes') {
+      pillYes.className = 'relative flex items-center justify-center gap-2 py-2.5 px-3 rounded-md cursor-pointer transition-all bg-status-info-bg text-secondary font-label-lg text-label-lg shadow-sm';
+      pillNo.className = 'relative flex items-center justify-center gap-2 py-2.5 px-3 rounded-md cursor-pointer transition-all bg-surface-container text-text-secondary font-label-lg text-label-lg hover:bg-surface-container-high';
+    } else {
+      pillNo.className = 'relative flex items-center justify-center gap-2 py-2.5 px-3 rounded-md cursor-pointer transition-all bg-status-warning-bg text-status-warning-text font-label-lg text-label-lg shadow-sm';
+      pillYes.className = 'relative flex items-center justify-center gap-2 py-2.5 px-3 rounded-md cursor-pointer transition-all bg-surface-container text-text-secondary font-label-lg text-label-lg hover:bg-surface-container-high';
+    }
+  }
+
+  function toggleLegalModal() {
+    const modal = document.getElementById('legalModal');
+    if (modal.classList.contains('hidden')) {
+      modal.classList.remove('hidden');
+      modal.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    } else {
+      modal.classList.add('hidden');
+    }
+  }
+
+  function triggerDownload() {
+    const btnText = document.getElementById('downloadBtnText');
+    const originalText = btnText.innerText;
+    btnText.innerText = "Generating Sealed Certificate...";
+    setTimeout(() => {
+      btnText.innerText = "Certificate Ready & Downloaded!";
+      setTimeout(() => {
+        btnText.innerText = originalText;
+      }, 2500);
+    }, 900);
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-default shadow-[0_1px_8px_rgba(0,0,0,0.04)]" data-active-classes="text-secondary bg-surface-container-low font-label-md"><div class="grid grid-cols-4 h-16 w-full"><a class="flex flex-col items-center justify-center gap-space-xs text-text-secondary hover:text-on-surface min-h-[44px]" data-path="search-verify-land-parcel-inquiry" href="#"><span class="material-symbols-outlined text-[20px]">search</span><span class="font-label-sm">Search</span></a><a class="flex flex-col items-center justify-center gap-space-xs text-text-secondary hover:text-on-surface min-h-[44px]" data-path="parcel-audit-detail-ai-verification" href="#"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-label-sm">Due Diligence</span></a><a class="flex flex-col items-center justify-center gap-space-xs text-text-secondary hover:text-on-surface min-h-[44px]" data-path="ai-boundary-discrepancy-map" href="#"><span class="material-symbols-outlined text-[20px]">layers</span><span class="font-label-sm">Map Audit</span></a><a class="flex flex-col items-center justify-center gap-space-xs text-text-secondary hover:text-on-surface min-h-[44px]" data-path="seller-desk-compliance-readiness" href="#"><span class="material-symbols-outlined text-[20px]">real_estate_agent</span><span class="font-label-sm">Seller Desk</span></a></div></nav></body></html>

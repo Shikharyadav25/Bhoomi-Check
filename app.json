@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "_expo_temp",
-    "slug": "_expo_temp",
+    "name": "BhoomiCheck",
+    "slug": "bhoomicheck",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
